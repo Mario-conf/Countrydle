@@ -1,0 +1,63 @@
+[
+    {
+        "nombre": "Argentina",
+        "latitud": -38.4161,
+        "longitud": -63.6167,
+        "svg": "assets/countries/argentina.svg"
+    },
+    {
+        "nombre": "Brasil",
+        "latitud": -14.235,
+        "longitud": -51.9253,
+        "svg": "assets/countries/brasil.svg"
+    },
+    {
+        "nombre": "España",
+        "latitud": 40.4637,
+        "longitud": -3.7492,
+        "svg": "assets/countries/espana.svg"
+    },
+    {
+        "nombre": "Francia",
+        "latitud": 46.6034,
+        "longitud": 1.8883,
+        "svg": "assets/countries/francia.svg"
+    },
+    {
+        "nombre": "Alemania",
+        "latitud": 51.1657,
+        "longitud": 10.4515,
+        "svg": "assets/countries/alemania.svg"
+    },
+    {
+        "nombre": "Italia",
+        "latitud": 41.8719,
+        "longitud": 12.5674,
+        "svg": "assets/countries/italia.svg"
+    },
+    {
+        "nombre": "Japón",
+        "latitud": 36.2048,
+        "longitud": 138.2529,
+        "svg": "assets/countries/japon.svg"
+    },
+    {
+        "nombre": "México",
+        "latitud": 23.6345,
+        "longitud": -102.5528,
+        "svg": "assets/countries/mexico.svg"
+    },
+    {
+        "nombre": "Estados Unidos",
+        "latitud": 37.0902,
+        "longitud": -95.7129,
+        "svg": "assets/countries/estados_unidos.svg"
+    },
+    {
+        "nombre": "Canadá",
+        "latitud": 56.1304,
+        "longitud": -106.3468,
+        "svg": "assets/countries/canada.svg"
+    }
+    // completalo con el resto de paises q hay en la onu
+]

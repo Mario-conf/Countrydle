@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Countrydle</title>
+
+    <link rel="stylesheet" href="estilos/interfaz.css">
+    <link rel="stylesheet" href="estilos/interno.css">
 </head>
 <body>
-    <!--
-    
-    -->
+    <div id="game-container">
+        <h1>Countrydle</h1>
+        <p>¡Adivina el país basándote en su silueta!</p>
+        <div id="country-contour"></div>
+        <input type="text" id="guess-input" placeholder="Escribe el nombre del país">
+        <button id="guess-button">Adivinar</button>
+        <div id="feedback"></div>
+    </div>
+
+    <script src="logica/funciones.js"></script>
+    <script src="logica/main.js"></script>
 </body>
 </html>
