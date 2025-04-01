@@ -14,12 +14,16 @@ document.getElementById("guess-button").addEventListener("click", () => {
     const inputUsuario = document.getElementById("guess-input").value.trim();
 
     if (!inputUsuario) {
-        mostrarRetroalimentacion("Por favor, escribe un nombre de país.", "incorrecto");
+        const mensaje = "Por favor, escribe un nombre de país.";
+        mostrarRetroalimentacion(mensaje, "incorrecto");
+        actualizarTablaFeedback(6 - intentosRestantes + 1, mensaje);
         return;
     }
 
     if (validarRespuesta(inputUsuario, paisObjetivo.nombre)) {
-        mostrarRetroalimentacion(`¡Correcto! El país era ${paisObjetivo.nombre}.`, "correcto");
+        const mensaje = `¡Correcto! El país era ${paisObjetivo.nombre}.`;
+        mostrarRetroalimentacion(mensaje, "correcto");
+        actualizarTablaFeedback(6 - intentosRestantes + 1, mensaje);
         guardarProgreso("ultimoResultado", { exito: true, pais: paisObjetivo.nombre });
         reiniciarJuego();
     } else {
@@ -37,15 +41,18 @@ document.getElementById("guess-button").addEventListener("click", () => {
                     paisIngresado.longitud
                 );
                 const direccion = calcularDireccion(paisIngresado.longitud, paisObjetivo.longitud);
-                mostrarRetroalimentacion(
-                    `Incorrecto. Distancia: ${Math.round(distancia)} km. Dirección: ${direccion}. Intentos restantes: ${intentosRestantes}.`,
-                    "incorrecto"
-                );
+                const mensaje = `Incorrecto. Distancia: ${Math.round(distancia)} km. Dirección: ${direccion}. Intentos restantes: ${intentosRestantes}.`;
+                mostrarRetroalimentacion(mensaje, "incorrecto");
+                actualizarTablaFeedback(6 - intentosRestantes + 1, mensaje);
             } else {
-                mostrarRetroalimentacion("El país ingresado no es válido.", "incorrecto");
+                const mensaje = "El país ingresado no es válido.";
+                mostrarRetroalimentacion(mensaje, "incorrecto");
+                actualizarTablaFeedback(6 - intentosRestantes + 1, mensaje);
             }
         } else {
-            mostrarRetroalimentacion(`¡Juego terminado! El país era ${paisObjetivo.nombre}.`, "incorrecto");
+            const mensaje = `¡Juego terminado! El país era ${paisObjetivo.nombre}.`;
+            mostrarRetroalimentacion(mensaje, "incorrecto");
+            actualizarTablaFeedback(6 - intentosRestantes + 1, mensaje);
             guardarProgreso("ultimoResultado", { exito: false, pais: paisObjetivo.nombre });
             reiniciarJuego();
         }

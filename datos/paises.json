@@ -1,63 +1,957 @@
 [
     {
-        "nombre": "Argentina",
-        "latitud": -38.4161,
-        "longitud": -63.6167,
-        "svg": "assets/countries/argentina.svg"
+        "nombre": "Afganistán",
+        "latitud": 33.9391,
+        "longitud": 67.7100
     },
     {
-        "nombre": "Brasil",
-        "latitud": -14.235,
-        "longitud": -51.9253,
-        "svg": "assets/countries/brasil.svg"
-    },
-    {
-        "nombre": "España",
-        "latitud": 40.4637,
-        "longitud": -3.7492,
-        "svg": "assets/countries/espana.svg"
-    },
-    {
-        "nombre": "Francia",
-        "latitud": 46.6034,
-        "longitud": 1.8883,
-        "svg": "assets/countries/francia.svg"
+        "nombre": "Albania",
+        "latitud": 41.1533,
+        "longitud": 20.1683
     },
     {
         "nombre": "Alemania",
         "latitud": 51.1657,
-        "longitud": 10.4515,
-        "svg": "assets/countries/alemania.svg"
+        "longitud": 10.4515
     },
     {
-        "nombre": "Italia",
-        "latitud": 41.8719,
-        "longitud": 12.5674,
-        "svg": "assets/countries/italia.svg"
+        "nombre": "Andorra",
+        "latitud": 42.5063,
+        "longitud": 1.5218
     },
     {
-        "nombre": "Japón",
-        "latitud": 36.2048,
-        "longitud": 138.2529,
-        "svg": "assets/countries/japon.svg"
+        "nombre": "Angola",
+        "latitud": -11.2027,
+        "longitud": 17.8739
     },
     {
-        "nombre": "México",
-        "latitud": 23.6345,
-        "longitud": -102.5528,
-        "svg": "assets/countries/mexico.svg"
+        "nombre": "Antigua y Barbuda",
+        "latitud": 17.0608,
+        "longitud": -61.7964
     },
     {
-        "nombre": "Estados Unidos",
-        "latitud": 37.0902,
-        "longitud": -95.7129,
-        "svg": "assets/countries/estados_unidos.svg"
+        "nombre": "Arabia Saudita",
+        "latitud": 23.8859,
+        "longitud": 45.0792
+    },
+    {
+        "nombre": "Argelia",
+        "latitud": 28.0339,
+        "longitud": 1.6596
+    },
+    {
+        "nombre": "Argentina",
+        "latitud": -38.4161,
+        "longitud": -63.6167
+    },
+    {
+        "nombre": "Armenia",
+        "latitud": 40.0691,
+        "longitud": 45.0382
+    },
+    {
+        "nombre": "Australia",
+        "latitud": -25.2744,
+        "longitud": 133.7751
+    },
+    {
+        "nombre": "Austria",
+        "latitud": 47.5162,
+        "longitud": 14.5501
+    },
+    {
+        "nombre": "Azerbaiyán",
+        "latitud": 40.1431,
+        "longitud": 47.5769
+    },
+    {
+        "nombre": "Bahamas",
+        "latitud": 25.0343,
+        "longitud": -77.3963
+    },
+    {
+        "nombre": "Bangladés",
+        "latitud": 23.6850,
+        "longitud": 90.3563
+    },
+    {
+        "nombre": "Barbados",
+        "latitud": 13.1939,
+        "longitud": -59.5432
+    },
+    {
+        "nombre": "Baréin",
+        "latitud": 26.0667,
+        "longitud": 50.5577
+    },
+    {
+        "nombre": "Bélgica",
+        "latitud": 50.5039,
+        "longitud": 4.4699
+    },
+    {
+        "nombre": "Belice",
+        "latitud": 17.1899,
+        "longitud": -88.4976
+    },
+    {
+        "nombre": "Benín",
+        "latitud": 9.3077,
+        "longitud": 2.3158
+    },
+    {
+        "nombre": "Bielorrusia",
+        "latitud": 53.7098,
+        "longitud": 27.9534
+    },
+    {
+        "nombre": "Birmania",
+        "latitud": 21.9162,
+        "longitud": 95.9560
+    },
+    {
+        "nombre": "Bolivia",
+        "latitud": -16.2902,
+        "longitud": -63.5887
+    },
+    {
+        "nombre": "Bosnia y Herzegovina",
+        "latitud": 43.9159,
+        "longitud": 17.6791
+    },
+    {
+        "nombre": "Botsuana",
+        "latitud": -22.3285,
+        "longitud": 24.6849
+    },
+    {
+        "nombre": "Brasil",
+        "latitud": -14.2350,
+        "longitud": -51.9253
+    },
+    {
+        "nombre": "Brunéi",
+        "latitud": 4.5353,
+        "longitud": 114.7277
+    },
+    {
+        "nombre": "Bulgaria",
+        "latitud": 42.7339,
+        "longitud": 25.4858
+    },
+    {
+        "nombre": "Burkina Faso",
+        "latitud": 12.2383,
+        "longitud": -1.5616
+    },
+    {
+        "nombre": "Burundi",
+        "latitud": -3.3731,
+        "longitud": 29.9189
+    },
+    {
+        "nombre": "Bután",
+        "latitud": 27.5142,
+        "longitud": 90.4336
+    },
+    {
+        "nombre": "Cabo Verde",
+        "latitud": 16.5388,
+        "longitud": -23.0418
+    },
+    {
+        "nombre": "Camboya",
+        "latitud": 12.5657,
+        "longitud": 104.9910
+    },
+    {
+        "nombre": "Camerún",
+        "latitud": 7.3697,
+        "longitud": 12.3547
     },
     {
         "nombre": "Canadá",
         "latitud": 56.1304,
-        "longitud": -106.3468,
-        "svg": "assets/countries/canada.svg"
+        "longitud": -106.3468
+    },
+    {
+        "nombre": "Catar",
+        "latitud": 25.3548,
+        "longitud": 51.1839
+    },
+    {
+        "nombre": "Chad",
+        "latitud": 15.4542,
+        "longitud": 18.7322
+    },
+    {
+        "nombre": "Chile",
+        "latitud": -35.6751,
+        "longitud": -71.5430
+    },
+    {
+        "nombre": "China",
+        "latitud": 35.8617,
+        "longitud": 104.1954
+    },
+    {
+        "nombre": "Chipre",
+        "latitud": 35.1264,
+        "longitud": 33.4299
+    },
+    {
+        "nombre": "Colombia",
+        "latitud": 4.5709,
+        "longitud": -74.2973
+    },
+    {
+        "nombre": "Comoras",
+        "latitud": -11.6455,
+        "longitud": 43.3333
+    },
+    {
+        "nombre": "Corea del Norte",
+        "latitud": 40.3399,
+        "longitud": 127.5101
+    },
+    {
+        "nombre": "Corea del Sur",
+        "latitud": 35.9078,
+        "longitud": 127.7669
+    },
+    {
+        "nombre": "Costa de Marfil",
+        "latitud": 7.5400,
+        "longitud": -5.5471
+    },
+    {
+        "nombre": "Costa Rica",
+        "latitud": 9.7489,
+        "longitud": -83.7534
+    },
+    {
+        "nombre": "Croacia",
+        "latitud": 45.1000,
+        "longitud": 15.2000
+    },
+    {
+        "nombre": "Cuba",
+        "latitud": 21.5218,
+        "longitud": -77.7812
+    },
+    {
+        "nombre": "Dinamarca",
+        "latitud": 56.2639,
+        "longitud": 9.5018
+    },
+    {
+        "nombre": "Dominica",
+        "latitud": 15.4150,
+        "longitud": -61.3710
+    },
+    {
+        "nombre": "Ecuador",
+        "latitud": -1.8312,
+        "longitud": -78.1834
+    },
+    {
+        "nombre": "Egipto",
+        "latitud": 26.8206,
+        "longitud": 30.8025
+    },
+    {
+        "nombre": "El Salvador",
+        "latitud": 13.7942,
+        "longitud": -88.8965
+    },
+    {
+        "nombre": "Emiratos Árabes Unidos",
+        "latitud": 23.4241,
+        "longitud": 53.8478
+    },
+    {
+        "nombre": "Eritrea",
+        "latitud": 15.1794,
+        "longitud": 39.7823
+    },
+    {
+        "nombre": "Eslovaquia",
+        "latitud": 48.6690,
+        "longitud": 19.6990
+    },
+    {
+        "nombre": "Eslovenia",
+        "latitud": 46.1512,
+        "longitud": 14.9955
+    },
+    {
+        "nombre": "España",
+        "latitud": 40.4637,
+        "longitud": -3.7492
+    },
+    {
+        "nombre": "Estados Unidos",
+        "latitud": 37.0902,
+        "longitud": -95.7129
+    },
+    {
+        "nombre": "Estonia",
+        "latitud": 58.5953,
+        "longitud": 25.0136
+    },
+    {
+        "nombre": "Etiopía",
+        "latitud": 9.1450,
+        "longitud": 40.4897
+    },
+    {
+        "nombre": "Fiyi",
+        "latitud": -17.7134,
+        "longitud": 178.0650
+    },
+    {
+        "nombre": "Filipinas",
+        "latitud": 12.8797,
+        "longitud": 121.7740
+    },
+    {
+        "nombre": "Finlandia",
+        "latitud": 61.9241,
+        "longitud": 25.7482
+    },
+    {
+        "nombre": "Francia",
+        "latitud": 46.6034,
+        "longitud": 1.8883
+    },
+    {
+        "nombre": "Gabón",
+        "latitud": -0.8037,
+        "longitud": 11.6094
+    },
+    {
+        "nombre": "Gambia",
+        "latitud": 13.4432,
+        "longitud": -15.3101
+    },
+    {
+        "nombre": "Georgia",
+        "latitud": 42.3154,
+        "longitud": 43.3569
+    },
+    {
+        "nombre": "Ghana",
+        "latitud": 7.9465,
+        "longitud": -1.0232
+    },
+    {
+        "nombre": "Granada",
+        "latitud": 12.1165,
+        "longitud": -61.6790
+    },
+    {
+        "nombre": "Grecia",
+        "latitud": 39.0742,
+        "longitud": 21.8243
+    },
+    {
+        "nombre": "Guatemala",
+        "latitud": 15.7835,
+        "longitud": -90.2308
+    },
+    {
+        "nombre": "Guinea",
+        "latitud": 9.9456,
+        "longitud": -9.6966
+    },
+    {
+        "nombre": "Guinea-Bisáu",
+        "latitud": 11.8037,
+        "longitud": -15.1804
+    },
+    {
+        "nombre": "Guinea Ecuatorial",
+        "latitud": 1.6508,
+        "longitud": 10.2679
+    },
+    {
+        "nombre": "Guyana",
+        "latitud": 4.8604,
+        "longitud": -58.9302
+    },
+    {
+        "nombre": "Haití",
+        "latitud": 18.9712,
+        "longitud": -72.2852
+    },
+    {
+        "nombre": "Honduras",
+        "latitud": 15.2000,
+        "longitud": -86.2419
+    },
+    {
+        "nombre": "Hungría",
+        "latitud": 47.1625,
+        "longitud": 19.5033
+    },
+    {
+        "nombre": "India",
+        "latitud": 20.5937,
+        "longitud": 78.9629
+    },
+    {
+        "nombre": "Indonesia",
+        "latitud": -0.7893,
+        "longitud": 113.9213
+    },
+    {
+        "nombre": "Irak",
+        "latitud": 33.2232,
+        "longitud": 43.6793
+    },
+    {
+        "nombre": "Irán",
+        "latitud": 32.4279,
+        "longitud": 53.6880
+    },
+    {
+        "nombre": "Irlanda",
+        "latitud": 53.4129,
+        "longitud": -8.2439
+    },
+    {
+        "nombre": "Islandia",
+        "latitud": 64.9631,
+        "longitud": -19.0208
+    },
+    {
+        "nombre": "Islas Marshall",
+        "latitud": 7.1315,
+        "longitud": 171.1845
+    },
+    {
+        "nombre": "Islas Salomón",
+        "latitud": -9.6457,
+        "longitud": 160.1562
+    },
+    {
+        "nombre": "Israel",
+        "latitud": 31.0461,
+        "longitud": 34.8516
+    },
+    {
+        "nombre": "Italia",
+        "latitud": 41.8719,
+        "longitud": 12.5674
+    },
+    {
+        "nombre": "Jamaica",
+        "latitud": 18.1096,
+        "longitud": -77.2975
+    },
+    {
+        "nombre": "Japón",
+        "latitud": 36.2048,
+        "longitud": 138.2529
+    },
+    {
+        "nombre": "Jordania",
+        "latitud": 30.5852,
+        "longitud": 36.2384
+    },
+    {
+        "nombre": "Kazajistán",
+        "latitud": 48.0196,
+        "longitud": 66.9237
+    },
+    {
+        "nombre": "Kenia",
+        "latitud": -0.0236,
+        "longitud": 37.9062
+    },
+    {
+        "nombre": "Kirguistán",
+        "latitud": 41.2044,
+        "longitud": 74.7661
+    },
+    {
+        "nombre": "Kiribati",
+        "latitud": -3.3704,
+        "longitud": -168.7340
+    },
+    {
+        "nombre": "Kuwait",
+        "latitud": 29.3117,
+        "longitud": 47.4818
+    },
+    {
+        "nombre": "Laos",
+        "latitud": 19.8563,
+        "longitud": 102.4955
+    },
+    {
+        "nombre": "Lesoto",
+        "latitud": -29.6099,
+        "longitud": 28.2336
+    },
+    {
+        "nombre": "Letonia",
+        "latitud": 56.8796,
+        "longitud": 24.6032
+    },
+    {
+        "nombre": "Líbano",
+        "latitud": 33.8547,
+        "longitud": 35.8623
+    },
+    {
+        "nombre": "Liberia",
+        "latitud": 6.4281,
+        "longitud": -9.4295
+    },
+    {
+        "nombre": "Libia",
+        "latitud": 26.3351,
+        "longitud": 17.2283
+    },
+    {
+        "nombre": "Liechtenstein",
+        "latitud": 47.1660,
+        "longitud": 9.5554
+    },
+    {
+        "nombre": "Lituania",
+        "latitud": 55.1694,
+        "longitud": 23.8813
+    },
+    {
+        "nombre": "Luxemburgo",
+        "latitud": 49.8153,
+        "longitud": 6.1296
+    },
+    {
+        "nombre": "Madagascar",
+        "latitud": -18.7669,
+        "longitud": 46.8691
+    },
+    {
+        "nombre": "Malasia",
+        "latitud": 4.2105,
+        "longitud": 101.9758
+    },
+    {
+        "nombre": "Malaui",
+        "latitud": -13.2543,
+        "longitud": 34.3015
+    },
+    {
+        "nombre": "Maldivas",
+        "latitud": 3.2028,
+        "longitud": 73.2207
+    },
+    {
+        "nombre": "Malí",
+        "latitud": 17.5707,
+        "longitud": -3.9962
+    },
+    {
+        "nombre": "Malta",
+        "latitud": 35.9375,
+        "longitud": 14.3754
+    },
+    {
+        "nombre": "Marruecos",
+        "latitud": 31.7917,
+        "longitud": -7.0926
+    },
+    {
+        "nombre": "Mauricio",
+        "latitud": -20.3484,
+        "longitud": 57.5522
+    },
+    {
+        "nombre": "Mauritania",
+        "latitud": 21.0079,
+        "longitud": -10.9408
+    },
+    {
+        "nombre": "México",
+        "latitud": 23.6345,
+        "longitud": -102.5528
+    },
+    {
+        "nombre": "Micronesia",
+        "latitud": 7.4256,
+        "longitud": 150.5508
+    },
+    {
+        "nombre": "Moldavia",
+        "latitud": 47.4116,
+        "longitud": 28.3699
+    },
+    {
+        "nombre": "Mónaco",
+        "latitud": 43.7384,
+        "longitud": 7.4246
+    },
+    {
+        "nombre": "Mongolia",
+        "latitud": 46.8625,
+        "longitud": 103.8467
+    },
+    {
+        "nombre": "Montenegro",
+        "latitud": 42.7087,
+        "longitud": 19.3744
+    },
+    {
+        "nombre": "Mozambique",
+        "latitud": -18.6657,
+        "longitud": 35.5296
+    },
+    {
+        "nombre": "Namibia",
+        "latitud": -22.9576,
+        "longitud": 18.4904
+    },
+    {
+        "nombre": "Nauru",
+        "latitud": -0.5228,
+        "longitud": 166.9315
+    },
+    {
+        "nombre": "Nepal",
+        "latitud": 28.3949,
+        "longitud": 84.1240
+    },
+    {
+        "nombre": "Nicaragua",
+        "latitud": 12.8654,
+        "longitud": -85.2072
+    },
+    {
+        "nombre": "Níger",
+        "latitud": 17.6078,
+        "longitud": 8.0817
+    },
+    {
+        "nombre": "Nigeria",
+        "latitud": 9.0820,
+        "longitud": 8.6753
+    },
+    {
+        "nombre": "Noruega",
+        "latitud": 60.4720,
+        "longitud": 8.4689
+    },
+    {
+        "nombre": "Nueva Zelanda",
+        "latitud": -40.9006,
+        "longitud": 174.8860
+    },
+    {
+        "nombre": "Omán",
+        "latitud": 21.5126,
+        "longitud": 55.9233
+    },
+    {
+        "nombre": "Países Bajos",
+        "latitud": 52.1326,
+        "longitud": 5.2913
+    },
+    {
+        "nombre": "Pakistán",
+        "latitud": 30.3753,
+        "longitud": 69.3451
+    },
+    {
+        "nombre": "Palaos",
+        "latitud": 7.5150,
+        "longitud": 134.5825
+    },
+    {
+        "nombre": "Panamá",
+        "latitud": 8.5375,
+        "longitud": -80.7821
+    },
+    {
+        "nombre": "Papúa Nueva Guinea",
+        "latitud": -6.3149,
+        "longitud": 143.9555
+    },
+    {
+        "nombre": "Paraguay",
+        "latitud": -23.4425,
+        "longitud": -58.4438
+    },
+    {
+        "nombre": "Perú",
+        "latitud": -9.1899,
+        "longitud": -75.0152
+    },
+    {
+        "nombre": "Polonia",
+        "latitud": 51.9194,
+        "longitud": 19.1451
+    },
+    {
+        "nombre": "Portugal",
+        "latitud": 39.3999,
+        "longitud": -8.2245
+    },
+    {
+        "nombre": "Reino Unido",
+        "latitud": 55.3781,
+        "longitud": -3.4360
+    },
+    {
+        "nombre": "República Centroafricana",
+        "latitud": 6.6111,
+        "longitud": 20.9394
+    },
+    {
+        "nombre": "República Checa",
+        "latitud": 49.8175,
+        "longitud": 15.4730
+    },
+    {
+        "nombre": "República del Congo",
+        "latitud": -0.2280,
+        "longitud": 15.8277
+    },
+    {
+        "nombre": "República Democrática del Congo",
+        "latitud": -4.0383,
+        "longitud": 21.7587
+    },
+    {
+        "nombre": "República Dominicana",
+        "latitud": 18.7357,
+        "longitud": -70.1627
+    },
+    {
+        "nombre": "Ruanda",
+        "latitud": -1.9403,
+        "longitud": 29.8739
+    },
+    {
+        "nombre": "Rumanía",
+        "latitud": 45.9432,
+        "longitud": 24.9668
+    },
+    {
+        "nombre": "Rusia",
+        "latitud": 61.5240,
+        "longitud": 105.3188
+    },
+    {
+        "nombre": "Samoa",
+        "latitud": -13.7590,
+        "longitud": -172.1046
+    },
+    {
+        "nombre": "San Cristóbal y Nieves",
+        "latitud": 17.3578,
+        "longitud": -62.7830
+    },
+    {
+        "nombre": "San Marino",
+        "latitud": 43.9424,
+        "longitud": 12.4578
+    },
+    {
+        "nombre": "San Vicente y las Granadinas",
+        "latitud": 12.9843,
+        "longitud": -61.2872
+    },
+    {
+        "nombre": "Santa Lucía",
+        "latitud": 13.9094,
+        "longitud": -60.9789
+    },
+    {
+        "nombre": "Santo Tomé y Príncipe",
+        "latitud": 0.1864,
+        "longitud": 6.6131
+    },
+    {
+        "nombre": "Senegal",
+        "latitud": 14.4974,
+        "longitud": -14.4524
+    },
+    {
+        "nombre": "Serbia",
+        "latitud": 44.0165,
+        "longitud": 21.0059
+    },
+    {
+        "nombre": "Seychelles",
+        "latitud": -4.6796,
+        "longitud": 55.4920
+    },
+    {
+        "nombre": "Sierra Leona",
+        "latitud": 8.4606,
+        "longitud": -11.7799
+    },
+    {
+        "nombre": "Singapur",
+        "latitud": 1.3521,
+        "longitud": 103.8198
+    },
+    {
+        "nombre": "Siria",
+        "latitud": 34.8021,
+        "longitud": 38.9968
+    },
+    {
+        "nombre": "Somalia",
+        "latitud": 5.1521,
+        "longitud": 46.1996
+    },
+    {
+        "nombre": "Sri Lanka",
+        "latitud": 7.8731,
+        "longitud": 80.7718
+    },
+    {
+        "nombre": "Sudáfrica",
+        "latitud": -30.5595,
+        "longitud": 22.9375
+    },
+    {
+        "nombre": "Sudán",
+        "latitud": 12.8628,
+        "longitud": 30.2176
+    },
+    {
+        "nombre": "Sudán del Sur",
+        "latitud": 6.8769,
+        "longitud": 31.3069
+    },
+    {
+        "nombre": "Suecia",
+        "latitud": 60.1282,
+        "longitud": 18.6435
+    },
+    {
+        "nombre": "Suiza",
+        "latitud": 46.8182,
+        "longitud": 8.2275
+    },
+    {
+        "nombre": "Surinam",
+        "latitud": 3.9193,
+        "longitud": -56.0278
+    },
+    {
+        "nombre": "Tailandia",
+        "latitud": 15.8700,
+        "longitud": 100.9925
+    },
+    {
+        "nombre": "Tanzania",
+        "latitud": -6.3690,
+        "longitud": 34.8888
+    },
+    {
+        "nombre": "Tayikistán",
+        "latitud": 38.8610,
+        "longitud": 71.2761
+    },
+    {
+        "nombre": "Timor Oriental",
+        "latitud": -8.8742,
+        "longitud": 125.7275
+    },
+    {
+        "nombre": "Togo",
+        "latitud": 8.6195,
+        "longitud": 0.8248
+    },
+    {
+        "nombre": "Tonga",
+        "latitud": -21.1790,
+        "longitud": -175.1982
+    },
+    {
+        "nombre": "Trinidad y Tobago",
+        "latitud": 10.6918,
+        "longitud": -61.2225
+    },
+    {
+        "nombre": "Túnez",
+        "latitud": 33.8869,
+        "longitud": 9.5375
+    },
+    {
+        "nombre": "Turkmenistán",
+        "latitud": 38.9697,
+        "longitud": 59.5563
+    },
+    {
+        "nombre": "Turquía",
+        "latitud": 38.9637,
+        "longitud": 35.2433
+    },
+    {
+        "nombre": "Tuvalu",
+        "latitud": -7.1095,
+        "longitud": 177.6493
+    },
+    {
+        "nombre": "Ucrania",
+        "latitud": 48.3794,
+        "longitud": 31.1656
+    },
+    {
+        "nombre": "Uganda",
+        "latitud": 1.3733,
+        "longitud": 32.2903
+    },
+    {
+        "nombre": "Uruguay",
+        "latitud": -32.5228,
+        "longitud": -55.7658
+    },
+    {
+        "nombre": "Uzbekistán",
+        "latitud": 41.3775,
+        "longitud": 64.5853
+    },
+    {
+        "nombre": "Vanuatu",
+        "latitud": -15.3767,
+        "longitud": 166.9592
+    },
+    {
+        "nombre": "Venezuela",
+        "latitud": 6.4238,
+        "longitud": -66.5897
+    },
+    {
+        "nombre": "Vietnam",
+        "latitud": 14.0583,
+        "longitud": 108.2772
+    },
+    {
+        "nombre": "Yemen",
+        "latitud": 15.5527,
+        "longitud": 48.5164
+    },
+    {
+        "nombre": "Yibuti",
+        "latitud": 11.8251,
+        "longitud": 42.5903
+    },
+    {
+        "nombre": "Zambia",
+        "latitud": -13.1339,
+        "longitud": 27.8493
+    },
+    {
+        "nombre": "Zimbabue",
+        "latitud": -19.0154,
+        "longitud": 29.1549
     }
-    // completalo con el resto de paises q hay en la onu
 ]

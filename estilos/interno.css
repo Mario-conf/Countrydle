@@ -1,0 +1,215 @@
+:root {
+    /* Variables globales */
+    --color-correcto: green;
+    --color-incorrecto: red;
+    --color-neutro: black;
+    --color-tabla-borde: #cccccc;
+    --color-tabla-header: #f4f4f4;
+    --color-tabla-fila-impar: #f9f9f9;
+    --color-tabla-fila-par: #ffffff;
+    --color-feedback-card-bg: #f9f9f9;
+    --color-feedback-card-borde: #cccccc;
+    --color-feedback-attempt: #333333;
+    --color-feedback-message: #666666;
+    --box-shadow-card: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estados de retroalimentación */
+.correcto {
+    color: var(--color-correcto);
+}
+
+.incorrecto {
+    color: var(--color-incorrecto);
+}
+
+.neutro {
+    color: var(--color-neutro);
+}
+
+/* Utilidades */
+.hidden {
+    display: none;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#feedback {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Tablas */
+#feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+#feedback-table th,
+#feedback-table td {
+    border: 1px solid var(--color-tabla-borde);
+    padding: 8px;
+}
+
+#feedback-table th {
+    background-color: var(--color-tabla-header);
+    font-weight: bold;
+    text-align: center;
+}
+
+#feedback-table tbody tr:nth-child(odd) {
+    background-color: var(--color-tabla-fila-impar);
+}
+
+#feedback-table tbody tr:nth-child(even) {
+    background-color: var(--color-tabla-fila-par);
+}
+
+#feedback-table td {
+    text-align: center;
+}
+
+/* Historial de retroalimentación */
+#feedback-history {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.feedback-card {
+    background-color: var(--color-feedback-card-bg);
+    border: 1px solid var(--color-feedback-card-borde);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: var(--box-shadow-card);
+    transition: transform 0.2s ease;
+}
+
+.feedback-card:hover {
+    transform: scale(1.02);
+}
+
+.feedback-attempt {
+    font-weight: bold;
+    color: var(--color-feedback-attempt);
+    margin: 0;
+}
+
+.feedback-message {
+    color: var(--color-feedback-message);
+    margin: 5px 0 0;
+}
+.incorrecto {
+    color: red;
+}
+
+/* Retroalimentación neutra */
+.neutro {
+    color: black;
+}
+
+/* Clase para ocultar elementos */
+.hidden {
+    display: none;
+}
+
+/* Animación para retroalimentación */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#feedback {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Estilo para la tabla de retroalimentación */
+#feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+/* Estilo para las celdas de la tabla */
+#feedback-table th,
+#feedback-table td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+/* Estilo para el encabezado de la tabla */
+#feedback-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Alternar colores en las filas */
+#feedback-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+#feedback-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Centrar el texto en las celdas */
+#feedback-table td {
+    text-align: center;
+}
+
+/* Contenedor del historial */
+#feedback-history {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Tarjetas de feedback */
+.feedback-card {
+    background-color: #f9f9f9;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.feedback-card:hover {
+    transform: scale(1.02);
+}
+
+/* Texto del intento */
+.feedback-attempt {
+    font-weight: bold;
+    color: #333333;
+    margin: 0;
+}
+
+/* Texto del mensaje */
+.feedback-message {
+    color: #666666;
+    margin: 5px 0 0;
+}
+/* Retroalimentación correcta */
+.correcto {
+    color: green;
+}

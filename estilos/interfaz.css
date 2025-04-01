@@ -1,0 +1,84 @@
+/* Variables globales */
+:root {
+    --font-family: Arial, sans-serif;
+    --bg-color: #f4f4f4;
+    --container-bg: #ffffff;
+    --container-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    --text-color: #333333;
+    --subtext-color: #666666;
+    --border-color: #cccccc;
+    --button-bg: #4CAF50;
+    --button-hover-bg: #45a049;
+    --border-radius: 10px;
+    --font-size-large: 2rem;
+    --font-size-medium: 1rem;
+    --padding: 10px;
+}
+
+/* General */
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+#game-container {
+    background-color: var(--container-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--container-shadow);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Títulos y texto */
+h1 {
+    color: var(--text-color);
+    font-size: var(--font-size-large);
+    margin-bottom: 10px;
+}
+
+p {
+    color: var(--subtext-color);
+    font-size: var(--font-size-medium);
+    margin-bottom: 20px;
+}
+
+/* Campos y botones */
+input[type="text"] {
+    width: 80%;
+    padding: var(--padding);
+    margin-bottom: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: var(--font-size-medium);
+}
+
+button {
+    background-color: var(--button-bg);
+    color: white;
+    border: none;
+    padding: var(--padding) 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: var(--font-size-medium);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--button-hover-bg);
+}
+
+/* Retroalimentación */
+#feedback {
+    margin-top: 20px;
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+}
